@@ -54,12 +54,12 @@ svg {
     justify-items: center;
 }
 
-.header-top-profile {
+.header-top-avatar {
     display: grid;
     align-items: center;
 }
 
-.header-top-profile svg {
+.header-top-avatar svg {
     color: black;
     width: 70%;
 }
@@ -68,6 +68,52 @@ svg {
     font-weight: bold;
     font-size: 20px;
     text-align: left;
+}
+
+.header-bottom {
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: 0.25fr 1fr 4fr 3fr 1fr 1fr 1fr 0.25fr;
+    align-items: center;
+    gap: 15px;
+}
+
+.header-bottom-avatar {
+    display: grid;
+    justify-items: center;
+}
+
+.header-bottom-avatar svg {
+    color: black;
+    width: 80%;
+}
+
+.intro {
+    font-weight: bold;
+    display: grid;
+    grid-template-rows: 1fr 2fr;
+}
+
+
+.header-bottom-button {
+    background-color: #3b82f6;
+    height: 45px;
+    border-radius: 25px;
+    margin: 8px;
+    text-align: center;
+    display: grid;
+    grid-template-rows: 1fr;
+    align-items: center;
+}
+
+.header-bottom-button-text {
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.intro-bottom {
+    font-size: 30px;
 }
 
 .sidebar {
@@ -114,10 +160,26 @@ svg {
     width: 100%;
  }
 
-
-
 .main-content {
     background-color: #a3a3a3;
     grid-row: 2 / 3;
     grid-column: 2 / 3;
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    padding: 30px 20px 40px 15px;
+}
+
+.content-column-title {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.left-column {
+    display: grid;
+    grid-template-rows: 1fr 18fr;
+    gap: 15px;
+}
+
+.card-container {
+    
 }
